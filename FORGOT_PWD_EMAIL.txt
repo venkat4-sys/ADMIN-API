@@ -1,0 +1,13 @@
+Hi  {FNAME},
+<br/>
+
+
+please use below details to login your Account.<br/> 
+
+your password is:{TEMP-PWD}<br/>
+<br/>
+
+
+
+Thanks & Regards,<br/>
+IES FAMILY.<br/>

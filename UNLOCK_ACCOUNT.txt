@@ -1,0 +1,17 @@
+Hi  {FNAME},
+<br/>
+
+welcome to IES Application, your registration is almost completed.
+<br>
+please use below details to unlock your account.<br/> 
+
+Temporary password:{TEMP-PWD}<br/>
+<br/>
+
+<a href="http://iesapp.s3-website.ap-south-1.amazonaws.com/choose-pwd.html/unlockAcc/{EMAIL}" target="_blank">Click Here To Unlock your Account</a>
+
+<br/>
+<br/>
+
+Thanks & Regards,<br/>
+IES FAMILY.<br/>

@@ -1,0 +1,41 @@
+server:
+  port: 9091
+spring:
+  application:
+    name: ADMIN_MODULE
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: root
+    url: jdbc:mysql://localhost:3306/AdminDB
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    password: rtsisfelvlfilteb
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: 'true '
+            required: true
+    username: venkatkilari5@gmail.com
+    
+    
+IES-ADMIN:
+  messages:
+   RegSuccess:Account Registration sucess
+   UnlockAccountfile:UNLOCK_ACCOUNT.txt
+   AccountCreationSuccess:Account Created Successfully
+   AccountUpdate:Account Updated successfully
+   PlanCreationSucces:Plan Created Successfully
+   PlanUpdatedSuccess:plan Updated successfully
+   passwordUpdatedSuccess:password updated successfully
+   detailsCheck:Please check the details
+   forGotFileName:FORGOT_PWD_EMAIL.txt
+   checkEmail:Please check your email
+   emailNotFound:email is not found
